@@ -356,6 +356,21 @@ footer {
     display: flex;
   }
 
+  .hero::before {
+    background-size: 140%;
+    background-position: center bottom;
+    opacity: 0.35;
+}
+
+.hero::after {
+    background: linear-gradient(
+        180deg,
+        rgba(255,255,255,0.97) 0%,
+        rgba(255,255,255,0.92) 45%,
+        rgba(255,255,255,0.75) 100%
+    );
+}
+
   .hero {
     padding: 76px 0;
   }
