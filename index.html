@@ -1,14 +1,183 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MDO Electronics</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <h1>MDO Electronics</h1>
-  <p>Finnish electronics design, embedded systems, PCB design and technical development.</p>
 
-  <h2>Contact</h2>
-  <p>Email: your@email.com</p>
+<header class="site-header">
+  <div class="container nav">
+    <a href="#home" class="logo">
+  <img src="images/MDOlogo.png" alt="MDO Electronics logo">
+</a>
+    <button class="menu-btn" id="menuBtn">☰</button>
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#projects">Projects</a>
+      <a href="#downloads">Downloads</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section id="home" class="hero">
+  <div class="container hero-grid hero-single">
+    <div>
+      <p class="tagline">Embedded Systems • PCB Design • Industrial Electronics</p>
+
+      <h1>Custom electronics development for real-world technical problems.</h1>
+
+      <p class="hero-text">
+        MDO Electronics develops embedded hardware, firmware, measurement systems,
+        automation tools and custom electronics for demanding technical applications.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#products" class="btn primary">View Products</a>
+        <a href="#contact" class="btn secondary">Contact</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="expertise" class="section expertise-section">
+  <div class="container">
+    <h2>Our Expertise</h2>
+    <p class="section-intro">Core engineering capabilities and technical focus areas.</p>
+
+    <div class="expertise-grid">
+      <div class="expertise-card">
+        <h3>Embedded Systems</h3>
+        <p>Microcontroller-based hardware, firmware, control systems and sensor interfaces.</p>
+      </div>
+
+      <div class="expertise-card">
+        <h3>PCB Design</h3>
+        <p>Custom PCB design, prototyping, testing and electronics integration.</p>
+      </div>
+
+      <div class="expertise-card">
+        <h3>Sensor Interfaces</h3>
+        <p>Temperature sensing, NTC simulation, analog interfaces and signal conditioning.</p>
+      </div>
+
+      <div class="expertise-card">
+        <h3>Car Electronics</h3>
+        <p>ECU-related electronics, dashboards, adapters and custom automotive systems.</p>
+      </div>
+
+      <div class="expertise-card">
+        <h3>Industrial Diagnostics</h3>
+        <p>Measurement tools, troubleshooting, automation and technical test equipment.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="products" class="section">
+  <div class="container">
+    <h2>Products</h2>
+    <p class="section-intro">Current and upcoming electronics products.</p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>ESP32 NTC Simulator</h3>
+        <p>
+          Reads digital temperature sensors and emulates NTC thermistor outputs
+          for heat pumps, controllers and test systems.
+        </p>
+        <a href="#">More information →</a>
+      </div>
+
+      <div class="card">
+        <h3>Battery Test Report Tool</h3>
+        <p>
+          Python-based tool for extracting, repairing, plotting and reporting
+          battery tester cycle data.
+        </p>
+        <a href="#">More information →</a>
+      </div>
+
+      <div class="card">
+        <h3>Custom Electronics</h3>
+        <p>
+          Embedded control boards, measurement interfaces, industrial adapters
+          and application-specific hardware.
+        </p>
+        <a href="#">More information →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section dark-section">
+  <div class="container">
+    <h2>Projects</h2>
+
+    <div class="project-grid">
+      <div class="project">
+        <span>01</span>
+        <h3>Heat Pump Diagnostics</h3>
+        <p>Sensor analysis, controller behavior, COP investigation and system troubleshooting.</p>
+      </div>
+
+      <div class="project">
+        <span>02</span>
+        <h3>Precision Measurement</h3>
+        <p>Low-noise ADC systems, references, calibration routines and embedded displays.</p>
+      </div>
+
+      <div class="project">
+        <span>03</span>
+        <h3>Battery Testing</h3>
+        <p>Cycle-life data processing, internal resistance calculation and automated reporting.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="downloads" class="section">
+  <div class="container">
+    <h2>Downloads</h2>
+    <p class="section-intro">Datasheets, firmware, manuals and documentation will be added here.</p>
+
+    <div class="download-box">
+      <p>No public downloads yet.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section contact-section">
+  <div class="container contact-grid">
+    <div>
+      <h2>Contact</h2>
+      <p>
+        For product information, technical development, prototypes or custom electronics,
+        contact MDO Electronics.
+      </p>
+    </div>
+
+    <div class="contact-card">
+      <p><strong>Email:</strong> MDOelectronics@multi.fi</p>
+      <p><strong>Location:</strong> Nykarleby, Finland</p>
+      <p><strong>Business:</strong> MDO Electronics</p>
+      <p><strong>Phone number:</strong> +358405481789</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>© 2026 MDO Electronics. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>
